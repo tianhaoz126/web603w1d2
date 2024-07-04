@@ -23,7 +23,7 @@ class Car extends React.Component {
             from {this.state.year}.
           </p>
           <button type="button"
-           onClick={this.changeColor}></button>
+           onClick={this.changeColor}>change color</button>
         </div>
       );
     }
